@@ -2,7 +2,7 @@
 
 A procedurally generated 2D island world engine built entirely from scratch in Java with no skeleton code or starter implementation. Every system in this project including world generation, pathfinding, interactivity, and saving and loading was designed and written by myself.
 
-Animal Crossing has been one of my favorite games since childhood. Personally, choosing this theme for the final project of 61B made it much more fun and engaging to create. The idea of a peaceful island full of named facilities, apple trees, and a villager you control felt like the perfect theme to bring this engine to life.
+Animal Crossing has been one of my favorite games since childhood. Personally, choosing this theme for the final project of UC Berkeley's 61B made it much more fun and engaging to create. The idea of a peaceful island full of named facilities, apple trees, and a villager you control felt like the perfect theme to bring this engine to life.
 
 ## Features
 
