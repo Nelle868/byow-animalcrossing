@@ -1,4 +1,4 @@
-# BYOW Island Generator
+# BYOW Island Generator (Animal Crossing Themed)
 
 A procedurally generated 2D island world engine built entirely from scratch in Java with no skeleton code or starter implementation. Every system in this project including world generation, pathfinding, interactivity, and saving and loading was designed and written by myself.
 
@@ -6,33 +6,19 @@ Animal Crossing has been one of my favorite games since childhood. Personally, c
 
 ## Features
 
-**World Generation**
+**World Generation**: Seeded pseudorandom generation produces a unique island for every seed. **BFS** connects all facilities so every floor tile is reachable from any other.
 
-Seeded pseudorandom generation produces a unique island for every seed. **BFS** connects all facilities so every floor tile is reachable from any other.
+**Villager Movement**: Move your villager (the very adorable Marshall) around the island using WASD. Movement is restricted to walkable floor tiles.
 
-**Villager Movement**
+**Click to Path**: Click any reachable tile to preview the **shortest BFS** path highlighted on screen. Click the same tile again to animate the villager walking through it step by step.
 
-Move your villager (the very adorable Marshall) around the island using WASD. Movement is restricted to walkable floor tiles.
+**Undo and Redo**: Press U to undo the most recent move and K to redo it. Move history is maintained throughout the session.
 
-**Click to Path**
+**Save and Load**: Press :Q to save your game and quit. Press L from the main menu to restore your session exactly as you left it.
 
-Click any reachable tile to preview the **shortest BFS** path highlighted on screen. Click the same tile again to animate the villager walking through it step by step.
+**HUD**: Hover over any tile to see its name displayed in real time at the top of the screen. Each tile represents plant life and facilities found in the Animal Crossing game such as the Museum, Plaza, Airport, fruit trees, flowers, and more!
 
-**Undo and Redo**
-
-Press U to undo the most recent move and K to redo it. Move history is maintained throughout the session.
-
-**Save and Load**
-
-Press :Q to save your game and quit. Press L from the main menu to restore your session exactly as you left it.
-
-**HUD**
-
-Hover over any tile to see its name displayed in real time at the top of the screen. Each tile represents plant life and facilities found in the Animal Crossing game such as the Museum, Plaza, Airport, fruit trees, flowers, and more!
-
-**Music**
-
-Background music plays on loop from the main menu throughout the game. My personal favorite song from the game, of course. 
+**Music**: Background music plays on loop from the main menu throughout the game. My personal favorite song from the game, of course. 
 
 ## How the World Is Built
 
